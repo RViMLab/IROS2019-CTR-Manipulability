@@ -6,7 +6,7 @@ doi: 10.1109/IROS.2018.8593874
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593874&isnumber=8593358
 
 
-The CTR_Model Class includes functions for modeling a 3-tube CTR. It accepts tubes parameters, joint variables, initial value of joints, input force, tolerance for solver, and a desired method for solving equations (1 for using BVP and 2 for IVP). The Class depends on two other modules Segment.py and Tube.py. CTR_Model class has several functions including:
+The CTR_Model Class includes functions for modeling a 3-tube CTR. It accepts tubes parameters, joint variables q, initial value of joints q_0, input force f, tolerance for solver Tol, and a desired method for solving equations (1 for using BVP and 2 for IVP). The Class depends on two other modules Segment.py and Tube.py. CTR_Model class has several functions including:
 
 ode-solver(u_init): This function accepts initial curvatures of most inner tube (u_x,u_y,u_z) and twist curvature of other tubes as input and calculates the shape of the CTR assuming the problem as an initial value problem. The solution is not accurate but fast.
 
