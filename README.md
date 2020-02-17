@@ -20,7 +20,7 @@ If you enjoy this repository and use it, please cite our paper
 ```
 
 
-Dependencies:numpy, scipy, mpl_toolkits, matplotlib.
+Dependencies: numpy, scipy, mpl_toolkits, matplotlib.
 
 The CTR_Model module includes functions for modeling a 3-tube CTR. It accepts tubes parameters, joint variables q, initial value of joints q_0, input force f, tolerance for solver Tol, and a desired method for solving equations (1 for using BVP and 2 for IVP). The Class depends on two other modules Segment.py and Tube.py. CTR_Model module includes several functions:
 
