@@ -2,8 +2,23 @@
 Repo for modeling of a concentric tube robot with 3 tubes and estimating its manipulability indices.
 Based on the following paper:
 M. Khadem, L. Da Cruz and C. Bergeles, "Force/Velocity Manipulability Analysis for 3D Continuum Robots," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4920-4926.
+
 doi: 10.1109/IROS.2018.8593874
+
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593874&isnumber=8593358
+
+If you enjoy this repository and use it, please cite our paper
+```
+@inproceedings{khadem2018force,
+  title={Force/velocity manipulability analysis for 3d continuum robots},
+  author={Khadem, Mohsen and Da Cruz, Lyndon and Bergeles, Christos},
+  booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4920--4926},
+  year={2018},
+  organization={IEEE}
+}
+```
+
 
 Dependencies:numpy, scipy, mpl_toolkits, matplotlib.
 
