@@ -1,7 +1,7 @@
 # Concentric Tube Robot Model and Manipulability Index
 Repo for modeling of a concentric tube robot with 3 tubes and estimating its manipulability indices. It implements the methodology presented in the following publication:
 
-[strong]M. Khadem, L. Da Cruz and C. Bergeles, "Force/Velocity Manipulability Analysis for 3D Continuum Robots," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4920-4926.[strong]
+M. Khadem, L. Da Cruz and C. Bergeles, "Force/Velocity Manipulability Analysis for 3D Continuum Robots," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4920-4926.
 
 doi: 10.1109/IROS.2018.8593874
 
